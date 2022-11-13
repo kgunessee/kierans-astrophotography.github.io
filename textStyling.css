@@ -1,0 +1,72 @@
+.overlay h3 {
+    color: var(--MainTextColourDM);
+    font-family: 'Oxygen', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.img-title,
+.catalogue-id,
+.img-description,
+.details-title,
+.img-date,
+li {
+    font-family: 'Oxygen', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.details-title {
+    font-size: 1.2em;
+    color: #c2c2c2;
+    margin-bottom: 0.8em;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0.7em;
+    margin-bottom: 2em;
+    transform: translateX(1em)
+}
+
+.img-date {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    color: rgb(159, 159, 159);
+}
+
+.img-title {
+    font-size: 2em;
+    color: var(--MainTextColourDM);
+    margin-bottom: 0.2em;
+}
+
+
+
+.catalogue-id {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: rgb(159, 159, 159);
+    margin-bottom: 1em;
+}
+
+
+
+hr {
+    border: 0;
+    height: 0.5px;
+    background-color: rgb(159, 159, 159);
+    margin-bottom: 1.5em;
+}
+
+.img-description,
+.img-date,
+ul {
+    font-size: 1em;
+    color: #c2c2c2;
+}

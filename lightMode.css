@@ -1,0 +1,27 @@
+* {
+    --backgroundColourLM: #b8b8b8;
+}
+
+.bodyLightMode {
+    background-color: var(--backgroundColourLM);
+}
+
+.headerLightMode {
+    --headerColourBackground: #1e2025;
+}
+
+.modal-light-mode {
+    background-color: var(--backgroundColourLM);
+}
+
+.text-body-light-mode {
+    color: #1e2025
+}
+
+.title-light-mode {
+    color: #0e0e0e
+}
+
+.catalogue-light-mode {
+    color: #3b3c40
+}

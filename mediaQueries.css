@@ -1,0 +1,16 @@
+@media (max-width: 1054px) {
+    .content-width {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (max-width: 1670px) {
+    .modal-card {
+        flex-direction: column;
+        align-items: left;
+
+    }
+}
